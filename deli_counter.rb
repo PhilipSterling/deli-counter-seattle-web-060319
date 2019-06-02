@@ -14,5 +14,8 @@ def take_a_number(array,person)
   puts "Welcome, #{array.last}. You are number #{array.length} in line."
 end
 def now_serving(array)
-  puts "Currently serving #{array.shift}"
+  if(array.length > 0)
+    puts "Currently serving #{array.shift}"
+  else
+    puts
 end
