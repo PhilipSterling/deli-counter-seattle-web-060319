@@ -2,6 +2,8 @@
 def line(array)
   string = ""
   if(array.length > 0)
-    string = #{index}
-  array.each_with_index {|name,index| string + "#{index}. #{name}"  Grace 2. Kent"}
+    string = "The line is currently: "
+    array.each_with_index {|name,index| string + "#{index}. #{name}"}
+  else
+    string = ""
 end
