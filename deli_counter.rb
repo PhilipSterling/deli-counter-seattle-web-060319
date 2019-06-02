@@ -9,3 +9,7 @@ def line(array)
   end
   puts string
 end
+def take_a_number(array,person)
+  array.push(person)
+  puts ""
+end
